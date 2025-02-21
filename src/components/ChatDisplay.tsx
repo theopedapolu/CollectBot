@@ -1,5 +1,5 @@
 import {Box, Card, Container, Typography} from "@mui/material";
-import type {Message} from "../baml_client"
+import type {Message} from "@baml_client/types"
 
 interface ChatMessageProps {
     isThinking: boolean;
